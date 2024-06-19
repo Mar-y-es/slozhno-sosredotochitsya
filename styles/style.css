@@ -79,7 +79,7 @@
     border: none;
     border-block-end: 1px solid transparent;
     color: var(--navigation-text-color);
-    font-family: 'IBM Plex mono';
+    font-family: 'IBM Plex mono', monospace;
     font-size: 18px;
     text-align: center;
     text-transform: lowercase;
@@ -211,7 +211,7 @@
   
   @media (width >= 768px) {
     .header {
-      padding: 20px;
+      padding: 12px 20px;
     }
   
     .header__text {
@@ -236,7 +236,7 @@
   
     .main {
       gap: 80px;
-      padding: 60px 20px;
+      padding: 66px 20px;
     }
   
     .block {
